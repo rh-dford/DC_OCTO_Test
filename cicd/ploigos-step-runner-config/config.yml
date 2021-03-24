@@ -4,7 +4,7 @@ step-runner-config:
   - implementer: SOPS
 
   global-defaults:
-    organization: tssc
+    organization: platform
     application-name: dc_octo_test
     service-name: fruit
 
