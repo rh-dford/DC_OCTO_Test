@@ -13,16 +13,8 @@ ploigosWorkflowStandard(
     workflowServiceAccountName: 'jenkins',
 
     workflowWorkerImageDefault: 'quay.io/ploigos/ploigos-ci-agent-jenkins:v0.16.0',
-    workflowWorkerImageUnitTest: 'quay.io/ploigos/ploigos-tool-maven:v0.16.0',
     workflowWorkerImagePackage: 'quay.io/ploigos/ploigos-tool-maven:v0.16.0',
-    workflowWorkerImageStaticCodeAnalysis: 'quay.io/ploigos/ploigos-tool-sonar:v0.16.0',
     workflowWorkerImagePushArtifacts: 'quay.io/ploigos/ploigos-tool-maven:v0.16.0',
-    workflowWorkerImageContainerOperations: 'quay.io/ploigos/ploigos-tool-containers:v0.16.0',
-    workflowWorkerImageContainerImageStaticComplianceScan: 'quay.io/ploigos/ploigos-tool-openscap:v0.16.0',
-    workflowWorkerImageContainerImageStaticVulnerabilityScan: 'quay.io/ploigos/ploigos-tool-openscap:v0.16.0',
-    workflowWorkerImageDeploy: 'quay.io/ploigos/ploigos-tool-argocd:v0.16.0',
-    workflowWorkerImageValidateEnvironmentConfiguration: 'quay.io/ploigos/ploigos-tool-config-lint:v0.16.0',
-    workflowWorkerImageUAT: 'quay.io/ploigos/ploigos-tool-maven:v0.16.0',
 
     separatePlatformConfig: true,
     stepRunnerLibSourceUrl: "git+https://github.com/rh-dford/DCOCTO-Steprunner.git@main",
