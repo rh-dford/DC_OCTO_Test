@@ -4,8 +4,8 @@ step-runner-config:
   - implementer: SOPS
 
   global-defaults:
-    organization: platform
-    application-name: ref-quarkus-mvn-jenkins-std
+    organization: tssc
+    application-name: dc_octo_test
     service-name: fruit
 
   generate-metadata:
