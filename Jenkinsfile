@@ -25,6 +25,6 @@ ploigosWorkflowStandard(
     workflowWorkerImageUAT: 'quay.io/ploigos/ploigos-tool-maven:v0.16.0',
 
     separatePlatformConfig: true,
-    stepRunnerLibSourceUrl: "git+https://github.com/ploigos/ploigos-step-runner@main",
+    stepRunnerLibSourceUrl: "git+https://github.com/rh-dford/DCOCTO-Steprunner.git@main",
     stepRunnerUpdateLibrary: true
 )
